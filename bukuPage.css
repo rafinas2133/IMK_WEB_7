@@ -1,0 +1,91 @@
+/* Add some styles for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("Image/perpus.jpg");
+    margin: 0;
+  }
+  
+  /* Style for the mynavbar */
+  .mynavbar {
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .mynavbar a {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .mynavbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .mynavbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Style for the container with the book information */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Style for the book image */
+  .book-image img {
+    max-width: 100%;
+  }
+  
+  /* Style for the profile circle */
+  .profile-circle {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Style for the review section */
+  .row.border {
+    background-color: transparent;
+    border: transparent;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  /* Style for the submit review button */
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Style for the readonly review textarea */
+  textarea[readonly] {
+    background-color: #f8f9fa;
+  }
+  
+  /* Style for the modal buttons */
+  .w3-modal-content footer a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .w3-modal-content footer .w3-green {
+    background-color: #4CAF50;
+  }
+  
+  .w3-modal-content footer .w3-red {
+    background-color: #f44336;
+  }
+
+  .border {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    border: 1px solid transparent; /* Set border to transparent */
+  }
+  
