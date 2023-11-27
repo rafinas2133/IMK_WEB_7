@@ -31,13 +31,41 @@
           <input class="w3-input w3-border w3-round-large" type="password" placeholder="Enter Paswword Kembali" name="psw" required>
 
           <div class="w3-panel w3-center">
-            <a href="login.html" class="w3-blue w3-btn w3-round-large">Buat Akun</a>
+            
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-border w3-green">Buat Akun</button>
+            
           </div>
         
         </form>
       </div>
   </div>
 
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-display-middle w3-card-4" style="width: 30%;">
+      <header class="w3-container w3-teal w3-center">
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Konfirmasi</h2>
+      </header>
+  
+      <div class="w3-container w3-center">
+        <p>Kode konfirmasi telah dikirim ke email berikut :</p>
+        <p>***************@gmail.com</p>
+        <br>
+        <br>
+        <br>
+        <p>00:30</p>
+        <p>Tidak menerima kode konfirmasi?<a href="#"> Kirim ulang</a> </p>
+        
+      </div>
+  
+      <footer class="w3-container w3-padding-16 w3-teal w3-center">
+        <a href="login.html" >
+          <button class="w3-button w3-green">Yes</button>  
+        </a> 
+      </footer>
+    </div>
+  </div>
   <script src="function.js"></script>
   
 </body>
